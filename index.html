@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Profil resmi Toyota Indonesia - Temukan berbagai model kendaraan terbaru dan teknologi inovatif dari Toyota.">
+  <title>Toyota Indonesia - Beranda</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/image/toyota-logo-black.png" type="image/png">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/style/style.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .model-section {
+      display: none;
+    }
+  </style>
+</head>
+
+
+      
+    <body>
+    <div class="navbar">
+      <nav>
+        <a href="#" class="logo">
+          <img src="assets/image/toyota-logo-black.png" alt="Toyota Logo" height="40">
+        </a>
+        <ul>
+          <li><a href="#sejarah" class="active">Sejarah</a></li>
+          <li><a href="#produk">Model Kendaraan</a></li>
+          <li><a href="#teknologi">Teknologi</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <header>
+      <div class="jumbotron">
+        <h1>Selamat Datang di Toyota</h1>
+        <p>Perusahaan otomotif terkemuka yang menghadirkan inovasi dan kualitas dalam setiap kendaraan.</p>
+      </div>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="sejarah" class="card">
+          <h2>Sejarah Toyota</h2>
+          <img src="assets/image/sejarah-toyota.jpg" alt="Sejarah Toyota" class="featured-image" />
+          <p>
+            Toyota didirikan oleh Kiichiro Toyoda pada tahun 1937 sebagai spin-off dari perusahaan induknya, Toyota Industries.
+            Sejak saat itu, Toyota berkembang menjadi salah satu produsen mobil terbesar di dunia.
+          </p>
+        </article>
+
+        <article id="produk" class="card">
+          <h2>Model Kendaraan</h2>
+          <p>Toyota menawarkan berbagai jenis kendaraan, mulai dari mobil keluarga hingga kendaraan ramah lingkungan.</p>
+          
+          <div class="model-selector">
+            <label for="modelSelect">Pilih Model:</label>
+            <select id="modelSelect">
+              <option value="">-- Pilih Model --</option>
+              <option value="avanza">Toyota Avanza</option>
+              <option value="fortuner">Toyota Fortuner</option>
+            </select>
+          </div>
+
+          <section id="avanza" class="model-section">
+            <h3>Toyota Avanza</h3>
+            <img src="assets/image/toyota-avanza.png" alt="Toyota Avanza" class="featured-image" />
+            <p>
+              Toyota Avanza adalah kendaraan MPV yang populer di Indonesia dengan desain modern dan kenyamanan maksimal. 
+              Didesain untuk keluarga Indonesia, Avanza menawarkan kabin yang luas dengan kapasitas hingga 7 penumpang, 
+              didukung oleh mesin bertenaga yang irit bahan bakar.
+            </p>
+            <ul class="feature-list">
+              <li>Mesin 1.3L atau 1.5L</li>
+              <li>Konsumsi BBM: 15.9 km/L</li>
+              <li>Kapasitas 7 Kursi</li>
+              <li>Fitur Keamanan Lengkap</li>
+            </ul>
+          </section>
+
+          <section id="fortuner" class="model-section">
+            <h3>Toyota Fortuner</h3>
+            <img src="assets/image/toyota-fortuner.png" alt="Toyota Fortuner" class="featured-image" />
+            <p>
+              Toyota Fortuner adalah SUV berkelas yang menawarkan perpaduan antara desain elegan, performa tangguh, dan teknologi canggih 
+              untuk kenyamanan serta keamanan berkendara. Ditenagai oleh mesin bensin atau diesel yang efisien, Fortuner hadir dengan 
+              pilihan penggerak 4x2 maupun 4x4, memungkinkan mobil ini melaju dengan stabil di berbagai medan.
+            </p>
+            <div class="specs-grid">
+              <div class="spec-item">
+                <h4>Dimensi</h4>
+                <p>4.795mm x 1.855mm x 1.835mm</p>
+              </div>
+              <div class="spec-item">
+                <h4>Mesin</h4>
+                <p>2.4L Diesel / 2.7L Bensin</p>
+              </div>
+              <div class="spec-item">
+                <h4>Transmisi</h4>
+                <p>6-speed Automatic</p>
+              </div>
+              <div class="spec-item">
+                <h4>Kursi</h4>
+                <p>7 Seater</p>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <article id="teknologi" class="card">
+          <h2>Teknologi</h2>
+          <img src="assets/image/teknologi-toyota.webp" alt="Teknologi Toyota" class="featured-image" />
+          <p>
+            Toyota terus berinovasi dalam teknologi otomotif dengan menghadirkan mobil listrik yang ramah lingkungan, 
+            sistem hybrid yang efisien dalam konsumsi bahan bakar, serta fitur keselamatan canggih.
+          </p>
+          
+          <div class="tech-features">
+            <div class="tech-item">
+              <i class="fas fa-bolt"></i>
+              <h3>Hybrid Technology</h3>
+              <p>Kombinasi mesin bensin dan motor listrik untuk efisiensi bahan bakar yang lebih baik.</p>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-shield-alt"></i>
+              <h3>Toyota Safety Sense</h3>
+              <p>Sistem keselamatan canggih yang mencakup pengereman darurat, peringatan keberangkatan jalur, dan kontrol jelajah adaptif.</p>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-leaf"></i>
+              <h3>Eco Technology</h3>
+              <p>Teknologi ramah lingkungan dengan emisi rendah dan konsumsi bahan bakar yang efisien.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile card">
+
+          <section>
+            <h3>Informasi Perusahaan</h3>
+            <div class="table-container">
+              <table>
+                <tr>
+                  <th>Nama</th>
+                  <td>PT. Toyota Motor Manufacturing Indonesia</td>
+                </tr>
+                <tr>
+                  <th>Didirikan</th>
+                  <td>1937</td>
+                </tr>
+                <tr>
+                  <th>Pendiri</th>
+                  <td>Kiichiro Toyoda</td>
+                </tr>
+                <tr>
+                  <th>Kantor Pusat</th>
+                  <td>Jakarta, Indonesia</td>
+                </tr>
+                <tr>
+                  <th>Produk</th>
+                  <td>Mobil, Mesin, Suku Cadang</td>
+                </tr>
+                <tr>
+                  <th>Situs Web</th>
+                  <td><a href="https://www.toyota.co.id" target="_blank">www.toyota.co.id</a></td>
+                </tr>
+              </table>
+            </div>
+          </section>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Toyota Indonesia. Semua Hak Dilindungi</p>
+    </footer>
+
+    <script src="assets/js/model.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
