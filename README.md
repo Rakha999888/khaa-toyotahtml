@@ -17,6 +17,12 @@ Website profil sederhana yang menampilkan informasi tentang perusahaan otomotif 
 - JavaScript (untuk interaktivitas)
 - Google Fonts (untuk tipografi)
 
+## Demo
+
+Anda dapat melihat demo langsung dari website ini di:
+
+🔗 [https://belajarweb123.netlify.app](https://belajarweb123.netlify.app)
+
 ## Struktur File
 
 ```
