@@ -21,7 +21,7 @@ Website profil sederhana yang menampilkan informasi tentang perusahaan otomotif 
 
 Anda dapat melihat demo langsung dari website ini di:
 
-🔗 [https://belajarweb123.netlify.app](https://belajarweb123.netlify.app)
+🔗 https://khaa-toyotahtml.netlify.app/
 
 ## Struktur File
 
